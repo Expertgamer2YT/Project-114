@@ -1,0 +1,16 @@
+h2{
+    font-size: 25px  !important;
+}
+.btn-success:hover{
+    background-color: crimson;
+}
+canvas{
+    animation-name : filter;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes filter {
+    from { box-shadow: 3px 4px 35px red;}
+    to {box-shadow: 3px 4px 35px blueviolet;}
+}
